@@ -116,6 +116,9 @@ body {
   padding: 10px 20px;
   color: #fff;
 }
+.home .main-wrap .content-holder .small-nav .statusBox .item {
+  flex-wrap: nowrap;
+}
 .home .main-wrap .content-holder .small-nav .statusBox .item .progress {
   margin-left: 5px;
   height: 6px;
@@ -132,6 +135,7 @@ body {
   margin-top: 5px;
   line-height: 1;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
 }
 .home .main-wrap .content-holder .small-nav .statusBox .item p strong {

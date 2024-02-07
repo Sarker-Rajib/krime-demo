@@ -83,6 +83,8 @@
                     color: #fff;
 
                     .item {
+                        flex-wrap: nowrap;
+
                         .progress {
                             margin-left: 5px;
                             height: 6px;
@@ -102,6 +104,7 @@
                             margin-top: 5px;
                             line-height: 1.0;
                             display: flex;
+                            flex-wrap: nowrap;
                             align-items: center;
 
                             strong {
