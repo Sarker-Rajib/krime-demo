@@ -260,14 +260,44 @@
   </main>
 
 
-  <!-- all codes for ===***?***=== starts from here -->
-  <section class="?"></section>
-  <!-- all codes for ===***?***=== ended -->
+  <!-- modal -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="myModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod nisi eum rerum voluptatibus tempore
+            quas deleniti sapiente? Magnam iste eum non veritatis velit fuga earum autem itaque quos necessitatibus!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- all scripts are starts from here -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    // Wacht tot de pagina volledig geladen is
+    $(document).ready(function () {
+      // Selecteer het modal element en toon het
+      $('#myModal').modal('show');
+    });
+  </script>
   <!-- .........script ended............. -->
 </body>
 
