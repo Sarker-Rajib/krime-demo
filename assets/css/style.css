@@ -1,0 +1,198 @@
+/*=== abstracts css start === */
+@font-face {
+  font-family: "Pathway Gothic One";
+  src: url("../fonts/PathwayGothicOne-Regular.woff2") format("woff2"), url("../fonts/PathwayGothicOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.mtc {
+  margin-top: 5px;
+}
+
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Pathway Gothic One";
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+/*===// end of base css === */
+/*=== layouts css start === */
+/*===// end of layouts css === */
+/*=== components css start === */
+/*===// end of components css === */
+.home {
+  min-height: 100vh;
+  background: url(../images/body.jpg) no-repeat center center/cover fixed;
+}
+.home .header .container {
+  padding: 15px 15px 27px;
+  max-width: 1100px;
+}
+.home .main-wrap .container {
+  max-width: 1188px;
+  padding: 0 15px 20px;
+}
+.home .main-wrap .content-holder {
+  margin-top: 57px;
+  padding-bottom: 25px;
+  border: 1px solid #646262;
+  border-radius: 0 0 10px 10px;
+  border-top: 0;
+  background: url("../images/bg.png") repeat;
+}
+.home .main-wrap .content-holder .middle-part {
+  margin-top: -57px;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns {
+  padding: 10px 20px;
+  background: url("../images/content.png") repeat-y;
+  background-size: 100%;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns .heading {
+  margin-bottom: 22px;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns .heading h2 {
+  font-size: 23px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #e13d2a;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns .heading .bottom-line {
+  height: 16px;
+  background: url(../images/horizontal_line.png) left bottom repeat-x;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns .content-body {
+  margin-bottom: 20px;
+}
+.home .main-wrap .content-holder .middle-part .middle-columns .content-body p {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #444;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+.home .main-wrap .content-holder .small-nav .statusBox {
+  padding: 10px 20px;
+  color: #fff;
+}
+.home .main-wrap .content-holder .small-nav .statusBox .item .progress {
+  margin-left: 5px;
+  height: 6px;
+}
+.home .main-wrap .content-holder .small-nav .statusBox .item .progress-bar {
+  background: url(../images/xpbg.png);
+}
+.home .main-wrap .content-holder .small-nav .statusBox .item .progress-bar.red {
+  background-color: #BD2714;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BD2714), to(#7E1508));
+}
+.home .main-wrap .content-holder .small-nav .statusBox .item p {
+  font-size: 13px;
+  margin-top: 5px;
+  line-height: 1;
+}
+.home .main-wrap .content-holder .small-nav .statusBox .item p strong {
+  padding-left: 5px;
+  width: 40px;
+  display: inline-block;
+}
+.home .main-wrap .content-holder .small-nav .link-box .top {
+  padding: 15px 20px 17px;
+  margin-bottom: 3px;
+  background: url(../images/menu-item-links.png) left top repeat;
+}
+.home .main-wrap .content-holder .small-nav .link-box .top h3 {
+  line-height: 1.1;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+.home .main-wrap .content-holder .small-nav .link-box .top.right {
+  background: url(../images/menu-item-rechts.png) left top repeat;
+}
+.home .main-wrap .content-holder .small-nav .link-box .top.right h3 {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .home .main-wrap .content-holder .small-nav .link-box .top {
+    background: url(../images/pattern.png) left center repeat;
+  }
+  .home .main-wrap .content-holder .small-nav .link-box .top.right {
+    background: url(../images/pattern.png) left center repeat;
+  }
+}
+.home .main-wrap .content-holder .small-nav .link-box .links ul {
+  padding: 0;
+}
+.home .main-wrap .content-holder .small-nav .link-box .links ul li + li {
+  border-top: 1px solid rgba(67, 66, 64, 0.431372549);
+}
+.home .main-wrap .content-holder .small-nav .link-box .links ul a {
+  line-height: 1.4;
+  padding: 4px 20px;
+  color: #e4e1da;
+  display: block;
+  font-size: 13px;
+  transition: all 0.4s;
+}
+.home .main-wrap .content-holder .small-nav .link-box .links ul a:hover {
+  color: #e13d2a;
+}
+@media (max-width: 767px) {
+  .home .main-wrap .content-holder .small-nav .link-box .links {
+    height: 0px;
+    overflow: hidden;
+  }
+}
+.home .main-wrap .content-holder .footer {
+  padding: 25px 20px 0;
+}
+.home .main-wrap .content-holder .footer p {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #fff;
+}
+.home .main-wrap .content-holder .footer .link {
+  font-size: 13px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.home .main-wrap .content-holder .footer .link:hover {
+  color: #e13d2a;
+}
+@media (min-width: 768px) {
+  .home .main-wrap .content-holder .small-nav {
+    width: 180px;
+  }
+  .home .main-wrap .content-holder .inside {
+    width: calc(100% - 360px);
+  }
+}/*# sourceMappingURL=style.css.map */
