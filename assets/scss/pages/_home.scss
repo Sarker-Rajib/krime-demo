@@ -62,9 +62,14 @@
                     }
                 }
 
+                .b-p {
+                    background: url('../images/content.png') top left;
+                    background-size: 100%;
+                }
+
                 .bottom {
                     height: 20px;
-                    background: url(../images/content-bottom.png) left bottom;
+                    background: url(../images/content-bottom.png) left bottom no-repeat;
                     background-size: 100%;
                     position: relative;
                     z-index: 1;
