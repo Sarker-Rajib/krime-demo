@@ -127,6 +127,8 @@ body {
   font-size: 13px;
   margin-top: 5px;
   line-height: 1;
+  display: flex;
+  align-items: center;
 }
 .home .main-wrap .content-holder .small-nav .statusBox .item p strong {
   padding-left: 5px;
