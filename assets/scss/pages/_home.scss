@@ -31,6 +31,8 @@
                     padding: 10px 20px;
                     background: url('../images/content.png') repeat-y;
                     background-size: 100%;
+                    position: relative;
+                    z-index: 2;
 
                     .heading {
                         margin-bottom: 22px;
@@ -58,6 +60,14 @@
                             font-family: 'Pathway Gothic One', sans-serif;
                         }
                     }
+                }
+
+                .bottom {
+                    height: 20px;
+                    background: url(../images/content-bottom.png) left bottom;
+                    background-size: 100%;
+                    position: relative;
+                    z-index: 1;
                 }
             }
 

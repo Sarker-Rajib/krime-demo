@@ -76,6 +76,8 @@ body {
   padding: 10px 20px;
   background: url("../images/content.png") repeat-y;
   background-size: 100%;
+  position: relative;
+  z-index: 2;
 }
 .home .main-wrap .content-holder .middle-part .middle-columns .heading {
   margin-bottom: 22px;
@@ -98,6 +100,13 @@ body {
   line-height: 1.4;
   color: #444;
   font-family: "Pathway Gothic One", sans-serif;
+}
+.home .main-wrap .content-holder .middle-part .bottom {
+  height: 20px;
+  background: url(../images/content-bottom.png) left bottom;
+  background-size: 100%;
+  position: relative;
+  z-index: 1;
 }
 .home .main-wrap .content-holder .small-nav .statusBox {
   padding: 10px 20px;
