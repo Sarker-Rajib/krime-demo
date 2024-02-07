@@ -149,6 +149,9 @@ body {
     background: url(../images/pattern.png) left center repeat;
   }
 }
+.home .main-wrap .content-holder .small-nav .link-box .links {
+  transition: all 0.3s;
+}
 .home .main-wrap .content-holder .small-nav .link-box .links ul {
   padding: 0;
 }
@@ -168,7 +171,7 @@ body {
 }
 @media (max-width: 767px) {
   .home .main-wrap .content-holder .small-nav .link-box .links {
-    height: 0px;
+    height: 0;
     overflow: hidden;
   }
 }
